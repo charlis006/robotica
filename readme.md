@@ -78,4 +78,4 @@ El desarrollo se estructuró en tres capas de validación rápida:
 2. **Lectura y Sello Temporal:** El usuario acerca su tarjeta; el `ESP32-S3` captura el UID y le asigna el *timestamp* exacto vía **NTP**.
 3. **Despacho / Contingencia:** Se envía la transacción por Wi-Fi (`HTTP POST/JSON`). Si no hay red, se guarda en el buffer local hasta reconectar.
 4. **Respuesta Instantánea:** El backend procesa el descuento y el LCD muestra `"Consumo Aprobado - Gs. 15.000"` junto con una señal auditiva del buzzer.
-5. **Visualización y Predicción:** El panel web actualiza las métricas en tiempo real y el motor de IA recalcula las proyecciones de afluencia e inventario.
+5. **Visualización y Predicción:** El panel web actualiza las métricas en tiempo real y el motor de IA recalcula las proyecciones de afluencia e inventario. 
